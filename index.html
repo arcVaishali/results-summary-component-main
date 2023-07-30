@@ -1,29 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
 
-  <section class="content">
 
+  <section class="content">
 
     <section class="head-container">
       <main class="heading">
         Your Result
       </main>
+
 
       <section class="image">
 
@@ -43,67 +57,85 @@
 
       <section class="text">
         You scored higher than 65% of the
-         people who have taken these tests.
+        people who have taken these tests.
       </section>
-      
+
     </section>
 
-
     <section class="detail-container">
-      <main class="head">
+
+      <section class="head">
         Summary
-      </main>
+      </section>
+
       <section class="body">
+
         <section class="reaction">
+          <img src="assets\images\icon-reaction.svg">
           <section class="rtext">
             Reaction
           </section>
           <section class="rscore">
-            80 / 100
+            <span style="font-weight:bold;">80 </span> <span style="opacity:0.7;">/ 100</span>
 
           </section>
         </section>
+
         <section class="memory">
+          <img src="assets\images\icon-memory.svg">
           <section class="mtext">
             Memory
-            
+
           </section>
           <section class="mscore">
-            92 / 100
-            
+            <span style="font-weight:bold;">92</span> <span style="opacity:0.7;">/ 100</span>
+
           </section>
         </section>
+
         <section class="verbal">
+          <img src="assets\images\icon-verbal.svg">
           <section class="vtext">
             Verbal
-            
+
           </section>
           <section class="vscore">
-            61 / 100
-            
+            <span style="font-weight:bold;">61 </span> <span style="opacity:0.7;">/ 100</span>
+
           </section>
         </section>
+
         <section class="visual">
+          <img src="assets\images\icon-visual.svg">
           <section class="vitext">
             Visual
-            
+
           </section>
           <section class="viscore">
-            72 / 100
-            
+            <span style="font-weight:bold;">72 </span> <span style="opacity:0.7;">/ 100</span>
+
           </section>
         </section>
+
       </section>
-      <nav>
-        <a href="#" class="btn">Continue</a>
-      </nav>
+
+
+      <a href="#" class="btn">Continue</a>
+
+
     </section>
 
+
+
   </section>
-  
+
+
+
+
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </footer>
 </body>
+
 </html>

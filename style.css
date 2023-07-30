@@ -2,28 +2,28 @@
     margin : 0 ;
     padding : 0 ;
     box-sizing: border-box ;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
-.content {
+.content{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center ;
     margin-top: 133px;
-    margin-bottom: 12px;
+    
 }
-
 .head-container {
     display : flex ;
     flex-direction: column ;
-    justify-content: center ;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
     align-items: center ;
     
-    background-color: rgb(96, 96, 215);
-    border-radius: 10px ; 
+    background-color:#5c3ffb;
+    border-radius: 20px ; 
     color : white ;
+    width: 20% ;
     padding : 20px ;
-    width : 15% ;
     box-shadow: 0px 0px 1px 0px black ;
 
 }
@@ -40,19 +40,22 @@
 
     width : 100px ;
     height : 100px ; 
+    padding : 20px ;
 
     border-radius: 50px ;
-    background-color: rgb(69, 69, 235);
+    background-image: linear-gradient(#4d23cb, #4632ec);
 }
 .score {
-    font-size :xx-large ;
+    font-size :45px;
+    font-weight : bolder ;
 }
 .out-of {
     font-size : x-small ;
 } 
 
 .remark {
-    font-size : xx-large ;
+    font-size : x-large ;
+    font-weight : bolder ;
 }
 
 .text {
@@ -61,12 +64,108 @@
 }
 
 .detail-container{
-    display: flex ;
-    flex-direction: column ;
-    box-shadow: 0px 0px 1px 0px black ;
-    border-top-right-radius: 10px ;
-    border-bottom-right-radius: 10px ;
-
-    padding : 20px ;
-    width : 15% ;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-evenly;
+    box-shadow: 4px 9px 20px 0px #cdd6f1;;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
 }
+
+.head {
+    font-size: large;
+    font-weight: bolder ;
+    padding : 10px 
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: stretch; 
+}
+
+.reaction{
+    display : flex;
+    flex-direction : row ; 
+    justify-content: space-around;
+    background-color: rgba(255, 0, 0, 0.041) ;
+    padding : 9px ;
+    border-radius: 5px;
+    margin-top: 10px ;
+}
+.rtext{
+    color : red ;
+    margin : auto 10px ;
+}
+.rscore {
+    margin : auto 10px ;
+}
+.memory{
+    display : flex;
+    flex-direction : row ; 
+    justify-content: space-around;
+    background-color: rgba(255, 255, 0, 0.073) ;
+    padding : 9px ;
+    border-radius: 5px;
+    margin-top: 10px ;
+    
+}
+.mtext{
+    color : yellow ;
+    margin : auto 10px ;
+}
+.mscore {
+    margin : auto 10px ;
+}
+.verbal{
+    display : flex;
+    flex-direction : row ; 
+    justify-content: space-around;
+    background-color: rgba(0, 128, 0, 0.071) ;
+    padding : 9px ;
+    border-radius: 5px;
+    margin-top: 10px ;
+    
+}
+.vtext{
+    color : green ;
+    margin : auto 10px ;
+}
+.vscore {
+    margin : auto 10px ;
+}
+.visual{
+    display : flex;
+    flex-direction : row ; 
+    justify-content: space-around;
+    background-color: rgba(137, 43, 226, 0.053) ;
+    padding : 9px ;
+    border-radius: 5px; 
+    margin-top: 10px ;
+}
+.vitext{
+    color : blueviolet ;
+    margin : auto 10px ;
+}
+.viscore {
+    margin : auto 10px ;
+}
+
+.btn{
+    background-color: black;
+    padding: 13px;
+    border-radius: 54px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.attribution {
+    margin-top : 12px;
+}
+
