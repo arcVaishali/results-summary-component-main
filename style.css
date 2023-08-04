@@ -39,11 +39,11 @@
     justify-content: center ;
     align-items: center ;
 
-    width : 100px ;
-    height : 100px ; 
+    width : 140px ;
+    height : 140px ; 
     padding : 20px ;
 
-    border-radius: 50px ;
+    border-radius: 70px ;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1) , hsla(241, 72%, 46%, 0));
 }
 .score {
